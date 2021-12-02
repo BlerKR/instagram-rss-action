@@ -16,7 +16,7 @@ jobs:
         uses: ./
         with:
           yourInstagram: katydecorah
-          listOfInstagrams: nytcooking,sohlae,swissmiss,soulfirefarm
+          listOfInstagrams: taeyeon_ss
       - name: Commit files
         if: ${{ success() && steps.rss.outputs.RSS_STATUS == 'success' }}
         run: |
